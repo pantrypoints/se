@@ -100,7 +100,22 @@
     <div class="relative z-10 max-w-2xl mx-auto text-center text-white">
       <h2 class="font-display text-3xl md:text-4xl font-semibold mb-3">Get the next law before it's published</h2>
       <p class="text-white/80 mb-8 text-base">One essay a week on how value actually behaves. No noise, unsubscribe anytime.</p>
-      <form class="flex gap-2.5 max-w-lg mx-auto flex-wrap justify-center" id="seSubForm">
+    
+      <form id="seSubForm" class="subscribe-form mt-10" action="https://pantrypoints.com/api/external" method="POST">
+        <input name="source" value="Maharlikanism Root" type="hidden">
+        <input name="name" value="Maharlikanism Subscriber" type="hidden">
+
+
+      <input
+        type="email"
+        name="email"
+        class="subscribe-input"
+        placeholder='{{ i18n "subscribe.placeholder" | default "Enter your email address" }}'
+        required
+        autocomplete="email">
+
+
+
         <input type="email" name="email" placeholder="you@domain.com" required class="flex-1 min-w-55 px-4 py-3.5 rounded-full border border-white/30 bg-white/8 text-white text-base outline-none placeholder-white/55 focus:border-teal-400 focus:ring-3 focus:ring-teal-400/25">
         <button type="submit" class="inline-flex items-center gap-2 px-6 py-3 rounded-full font-semibold text-sm no-underline bg-teal-400 text-teal-950 shadow-lg shadow-teal-400/35 hover:-translate-y-0.5 transition-transform duration-150">
           Subscribe
@@ -110,6 +125,10 @@
       <div class="mt-4 text-xs text-white/55">Read by economists, builders, and the occasionally-broke.</div>
     </div>
   </section>
+
+
+
+    
 
 </div>
 
