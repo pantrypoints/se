@@ -41,37 +41,37 @@
         <li class="border-b border-sp-border cursor-pointer" data-index="0" data-active="true">
           <button class="w-full flex items-center gap-4 px-1 py-4 cursor-pointer bg-transparent border-none">
             <span class="font-display text-base font-semibold text-teal-600 w-8">01</span>
-            <span class="text-lg font-semibold">Value follows scarcity</span>
+            <span class="text-lg font-semibold">Commonality</span>
           </button>
           <div class="max-h-0 overflow-hidden transition-all duration-300">
-            <p class="mb-4 pl-12 text-base leading-relaxed text-sp-muted max-w-xl">Anything abundant trends toward zero worth; anything genuinely scarce holds a floor. Supply is the first lever, not demand.</p>
+            <p class="mb-4 pl-12 text-base leading-relaxed text-sp-muted max-w-xl">Value is based on relational desire</p>
           </div>
         </li>
         <li class="border-b border-sp-border cursor-pointer" data-index="1">
           <button class="w-full flex items-center gap-4 px-1 py-4 cursor-pointer bg-transparent border-none">
             <span class="font-display text-base font-semibold text-teal-600 w-8">02</span>
-            <span class="text-lg font-semibold">Value flows toward attention</span>
+            <span class="text-lg font-semibold">Invisible Hand</span>
           </button>
           <div class="max-h-0 overflow-hidden transition-all duration-300">
-            <p class="mb-4 pl-12 text-base leading-relaxed text-sp-muted max-w-xl">Worth is assigned wherever collective attention settles. Move the attention and the value moves with it, often before the fundamentals do.</p>
+            <p class="mb-4 pl-12 text-base leading-relaxed text-sp-muted max-w-xl">Value is created to remove lack</p>
           </div>
         </li>
         <li class="border-b border-sp-border cursor-pointer" data-index="2">
           <button class="w-full flex items-center gap-4 px-1 py-4 cursor-pointer bg-transparent border-none">
             <span class="font-display text-base font-semibold text-teal-600 w-8">03</span>
-            <span class="text-lg font-semibold">Value compounds through trust</span>
+            <span class="text-lg font-semibold">Balance</span>
           </button>
           <div class="max-h-0 overflow-hidden transition-all duration-300">
-            <p class="mb-4 pl-12 text-base leading-relaxed text-sp-muted max-w-xl">Trusted systems let value stack over time; untrusted ones force it to be re-earned every cycle. Trust is the interest rate on everything else.</p>
+            <p class="mb-4 pl-12 text-base leading-relaxed text-sp-muted max-w-xl">There must be balance in the creation and spread of value</p>
           </div>
         </li>
         <li class="border-b border-sp-border cursor-pointer" data-index="3">
           <button class="w-full flex items-center gap-4 px-1 py-4 cursor-pointer bg-transparent border-none">
             <span class="font-display text-base font-semibold text-teal-600 w-8">04</span>
-            <span class="text-lg font-semibold">Value decays without renewal</span>
+            <span class="text-lg font-semibold">Fair Exchange</span>
           </button>
           <div class="max-h-0 overflow-hidden transition-all duration-300">
-            <p class="mb-4 pl-12 text-base leading-relaxed text-sp-muted max-w-xl">Left alone, worth erodes — skills go stale, currencies inflate, goodwill fades. Renewal is the only thing that resets the clock.</p>
+            <p class="mb-4 pl-12 text-base leading-relaxed text-sp-muted max-w-xl">Value spreads through fair exchange</p>
           </div>
         </li>
       </ul>
@@ -98,8 +98,8 @@
   <section class="relative bg-gradient-to-br from-teal-900 to-blue-900 px-6 py-22 overflow-hidden" id="subscribe">
     <div class="absolute -right-10 -top-30 w-3/5 aspect-square rounded-full bg-[radial-gradient(circle,rgba(0,200,164,0.35),transparent_65%)]"></div>
     <div class="relative z-10 max-w-2xl mx-auto text-center text-white">
-      <h2 class="font-display text-3xl md:text-4xl font-semibold mb-3">Get the next law before it's published</h2>
-      <p class="text-white/80 mb-8 text-base">One essay a week on how value actually behaves. No noise, unsubscribe anytime.</p>
+      <h2 class="font-display text-3xl md:text-4xl font-semibold mb-3">Get updates</h2>
+      <p class="text-white/80 mb-8 text-base">Unsubscribe anytime.</p>
     
       <form id="seSubForm" class="subscribe-form mt-10" action="https://pantrypoints.com/api/external" method="POST">
         <input name="source" value="Maharlikanism Root" type="hidden">
@@ -110,7 +110,7 @@
         </button>
       </form>
       <div class="mt-3.5 text-sm text-teal-400 min-h-5" id="seSubStatus"></div>
-      <div class="mt-4 text-xs text-white/55">Read by economists, builders, and the occasionally-broke.</div>
+      <div class="mt-4 text-xs text-white/55">Flow with a 4th Density Economic Science</div>
     </div>
   </section>
 
@@ -187,16 +187,43 @@
   }, 3200);
 
   // subscribe form
-  var form = document.getElementById('seSubForm');
-  var status = document.getElementById('seSubStatus');
-  form.addEventListener('submit', function(e){
-    e.preventDefault();
-    status.textContent = 'Subscribing…';
-    setTimeout(function(){
-      status.textContent = 'You\'re in — check your inbox to confirm.';
-      form.reset();
-    }, 600);
+// subscribe form
+var form = document.getElementById('seSubForm');
+var status = document.getElementById('seSubStatus');
+form.addEventListener('submit', function(e){
+  e.preventDefault();
+  status.textContent = 'Subscribing…';
+  
+  // Create FormData object from the form
+  var formData = new FormData(form);
+  
+  // Send the actual API request
+  fetch(form.action, {
+    method: 'POST',
+    body: formData,
+    headers: {
+      'Accept': 'application/json'
+    }
+  })
+  .then(function(response) {
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
+    return response.json().catch(function() {
+      // If response is not JSON, just return success
+      return { success: true };
+    });
+  })
+  .then(function(data) {
+    status.textContent = 'Submitted. Thank you for your interest!';
+    form.reset();
+  })
+  .catch(function(error) {
+    console.error('Subscription error:', error);
+    status.textContent = 'Something went wrong. Please try again.';
   });
+});
+
 })();
 </script>
 {{ end }}
