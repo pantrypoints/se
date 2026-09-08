@@ -1,0 +1,195 @@
+{{ define "main" }}
+<div class="font-body text-sp-text bg-sp-bg overflow-x-hidden">
+
+  <!-- ============ HERO ============ -->
+  <section class="relative min-h-screen flex flex-col overflow-hidden">
+    <video autoplay muted loop playsinline poster="/graphics/sp.jpg" class="absolute inset-0 w-full h-full object-cover saturate-105 brightness-55">
+      <source src="/smith.mp4" type="video/mp4">
+    </video>
+    <div class="absolute inset-0 bg-gradient-to-b from-black/35 via-black/35 to-black/92 bg-gradient-to-r from-teal-600/35 to-blue-700/28 z-10"></div>
+    
+    <div class="relative z-20 max-w-7xl mx-auto w-full px-6 pb-20 flex flex-col justify-end min-h-screen text-white">
+      <div class="text-sm text-teal-400 font-semibold mb-4 max-w-xl leading-relaxed">
+        A framework for how value moves, compounds, and decays
+      </div>
+      <h1 class="font-display text-5xl md:text-7xl leading-tight font-semibold max-w-md mb-6">
+        Economics, rebuilt from <span class="bg-gradient-to-r from-teal-400 to-blue-600 bg-clip-text text-transparent">first principles</span>
+      </h1>
+      <p class="max-w-xl text-lg leading-relaxed text-white/80 mb-8">
+        Supereconomics is a working model of value — four laws that explain why some things gain worth, why some lose it, and how to tell which is happening to you right now.
+      </p>
+      <div class="flex gap-4 flex-wrap">
+        <a href="#laws" class="inline-flex items-center gap-2 px-6 py-3 rounded-full font-semibold text-sm no-underline transition-transform duration-150 hover:-translate-y-0.5 bg-teal-400 text-teal-950 shadow-lg shadow-teal-400/35">
+          See the four laws
+        </a>
+        <a href="#subscribe" class="inline-flex items-center gap-2 px-6 py-3 rounded-full font-semibold text-sm no-underline transition-transform duration-150 hover:-translate-y-0.5 border border-white/35 text-white">
+          Get new essays
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOUR LAWS ============ -->
+  <section class="max-w-7xl mx-auto px-6 py-28 grid grid-cols-1 lg:grid-cols-[0.85fr_1.15fr] gap-14 items-start" id="laws">
+    <div>
+      <h2 class="font-display text-3xl md:text-4xl font-semibold mb-4 leading-tight">The four laws of value</h2>
+      <p class="text-sp-muted text-base leading-relaxed max-w-md">
+        Every market, career, and currency obeys the same four forces. Select one to trace how it moves through the system.
+      </p>
+
+      <ul class="list-none mt-9 border-t border-sp-border" id="seLawList">
+        <li class="border-b border-sp-border cursor-pointer" data-index="0" data-active="true">
+          <button class="w-full flex items-center gap-4 px-1 py-4 cursor-pointer bg-transparent border-none">
+            <span class="font-display text-base font-semibold text-teal-600 w-8">01</span>
+            <span class="text-lg font-semibold">Value follows scarcity</span>
+          </button>
+          <div class="max-h-0 overflow-hidden transition-all duration-300">
+            <p class="mb-4 pl-12 text-base leading-relaxed text-sp-muted max-w-xl">Anything abundant trends toward zero worth; anything genuinely scarce holds a floor. Supply is the first lever, not demand.</p>
+          </div>
+        </li>
+        <li class="border-b border-sp-border cursor-pointer" data-index="1">
+          <button class="w-full flex items-center gap-4 px-1 py-4 cursor-pointer bg-transparent border-none">
+            <span class="font-display text-base font-semibold text-teal-600 w-8">02</span>
+            <span class="text-lg font-semibold">Value flows toward attention</span>
+          </button>
+          <div class="max-h-0 overflow-hidden transition-all duration-300">
+            <p class="mb-4 pl-12 text-base leading-relaxed text-sp-muted max-w-xl">Worth is assigned wherever collective attention settles. Move the attention and the value moves with it, often before the fundamentals do.</p>
+          </div>
+        </li>
+        <li class="border-b border-sp-border cursor-pointer" data-index="2">
+          <button class="w-full flex items-center gap-4 px-1 py-4 cursor-pointer bg-transparent border-none">
+            <span class="font-display text-base font-semibold text-teal-600 w-8">03</span>
+            <span class="text-lg font-semibold">Value compounds through trust</span>
+          </button>
+          <div class="max-h-0 overflow-hidden transition-all duration-300">
+            <p class="mb-4 pl-12 text-base leading-relaxed text-sp-muted max-w-xl">Trusted systems let value stack over time; untrusted ones force it to be re-earned every cycle. Trust is the interest rate on everything else.</p>
+          </div>
+        </li>
+        <li class="border-b border-sp-border cursor-pointer" data-index="3">
+          <button class="w-full flex items-center gap-4 px-1 py-4 cursor-pointer bg-transparent border-none">
+            <span class="font-display text-base font-semibold text-teal-600 w-8">04</span>
+            <span class="text-lg font-semibold">Value decays without renewal</span>
+          </button>
+          <div class="max-h-0 overflow-hidden transition-all duration-300">
+            <p class="mb-4 pl-12 text-base leading-relaxed text-sp-muted max-w-xl">Left alone, worth erodes — skills go stale, currencies inflate, goodwill fades. Renewal is the only thing that resets the clock.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="sticky top-24 aspect-square rounded-3xl bg-[radial-gradient(circle_at_30%_20%,rgba(0,200,164,0.16),transparent_55%),radial-gradient(circle_at_75%_75%,rgba(43,79,224,0.14),transparent_55%),#0d1c18] flex items-center justify-center">
+      <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" class="w-3/4 h-3/4">
+        <path id="seLawPath" class="fill-none stroke-teal-400 stroke-2.5 stroke-dasharray-340 stroke-dashoffset-340 transition-all duration-600" d="M150,150 L150,150" />
+        <g id="seLawNodes">
+          <circle class="fill-[#0d1c18] stroke-sp-border stroke-2 transition-all duration-300" data-node="0" cx="150" cy="45" r="34"></circle>
+          <text class="font-display font-bold text-xl fill-teal-700/60 text-center" x="150" y="45">1</text>
+          <circle class="fill-[#0d1c18] stroke-sp-border stroke-2 transition-all duration-300" data-node="1" cx="255" cy="150" r="34"></circle>
+          <text class="font-display font-bold text-xl fill-teal-700/60 text-center" x="255" y="150">2</text>
+          <circle class="fill-[#0d1c18] stroke-sp-border stroke-2 transition-all duration-300" data-node="2" cx="150" cy="255" r="34"></circle>
+          <text class="font-display font-bold text-xl fill-teal-700/60 text-center" x="150" y="255">3</text>
+          <circle class="fill-[#0d1c18] stroke-sp-border stroke-2 transition-all duration-300" data-node="3" cx="45" cy="150" r="34"></circle>
+          <text class="font-display font-bold text-xl fill-teal-700/60 text-center" x="45" y="150">4</text>
+        </g>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ============ SUBSCRIBE ============ -->
+  <section class="relative bg-gradient-to-br from-teal-900 to-blue-900 px-6 py-22 overflow-hidden" id="subscribe">
+    <div class="absolute -right-10 -top-30 w-3/5 aspect-square rounded-full bg-[radial-gradient(circle,rgba(0,200,164,0.35),transparent_65%)]"></div>
+    <div class="relative z-10 max-w-2xl mx-auto text-center text-white">
+      <h2 class="font-display text-3xl md:text-4xl font-semibold mb-3">Get the next law before it's published</h2>
+      <p class="text-white/80 mb-8 text-base">One essay a week on how value actually behaves. No noise, unsubscribe anytime.</p>
+      <form class="flex gap-2.5 max-w-lg mx-auto flex-wrap justify-center" id="seSubForm">
+        <input type="email" name="email" placeholder="you@domain.com" required class="flex-1 min-w-55 px-4 py-3.5 rounded-full border border-white/30 bg-white/8 text-white text-base outline-none placeholder-white/55 focus:border-teal-400 focus:ring-3 focus:ring-teal-400/25">
+        <button type="submit" class="inline-flex items-center gap-2 px-6 py-3 rounded-full font-semibold text-sm no-underline bg-teal-400 text-teal-950 shadow-lg shadow-teal-400/35 hover:-translate-y-0.5 transition-transform duration-150">
+          Subscribe
+        </button>
+      </form>
+      <div class="mt-3.5 text-sm text-teal-400 min-h-5" id="seSubStatus"></div>
+      <div class="mt-4 text-xs text-white/55">Read by economists, builders, and the occasionally-broke.</div>
+    </div>
+  </section>
+
+</div>
+
+<script>
+(function(){
+  var nodePositions = [
+    {x:150,y:45},{x:255,y:150},{x:150,y:255},{x:45,y:150}
+  ];
+  var center = {x:150,y:150};
+  var items = document.querySelectorAll('#seLawList li[data-index]');
+  var nodes = document.querySelectorAll('#seLawNodes circle[data-node]');
+  var path = document.getElementById('seLawPath');
+  var nodeLabels = document.querySelectorAll('#seLawNodes text');
+
+  function activate(index){
+    items.forEach(function(it){ 
+      it.setAttribute('data-active', it.dataset.index === String(index) ? 'true' : 'false'); 
+      var body = it.querySelector('div');
+      if (it.dataset.index === String(index)) {
+        body.style.maxHeight = '200px';
+      } else {
+        body.style.maxHeight = '0';
+      }
+      var num = it.querySelector('span:first-child');
+      var title = it.querySelector('span:nth-child(2)');
+      if (it.dataset.index === String(index)) {
+        num.classList.add('text-blue-600');
+        title.classList.add('text-blue-900');
+      } else {
+        num.classList.remove('text-blue-600');
+        title.classList.remove('text-blue-900');
+      }
+    });
+    
+    nodes.forEach(function(n){ 
+      if (n.dataset.node === String(index)) {
+        n.classList.add('fill-blue-600', 'stroke-teal-400');
+      } else {
+        n.classList.remove('fill-blue-600', 'stroke-teal-400');
+      }
+    });
+
+    var p = nodePositions[index];
+    var d = 'M ' + center.x + ',' + center.y + ' L ' + p.x + ',' + p.y;
+    path.setAttribute('d', d);
+    path.style.strokeDashoffset = '340';
+    // force reflow so the transition replays each time
+    void path.getBoundingClientRect();
+    path.style.strokeDashoffset = '0';
+  }
+
+  items.forEach(function(it){
+    it.querySelector('button').addEventListener('click', function(){
+      activate(it.dataset.index);
+    });
+  });
+
+  activate(0);
+
+  // gentle auto-advance until the visitor interacts
+  var userInteracted = false;
+  items.forEach(function(it){ it.addEventListener('click', function(){ userInteracted = true; }); });
+  var auto = setInterval(function(){
+    if (userInteracted) { clearInterval(auto); return; }
+    var current = document.querySelector('#seLawList li[data-active="true"]');
+    var next = (parseInt(current.dataset.index, 10) + 1) % items.length;
+    activate(next);
+  }, 3200);
+
+  // subscribe form
+  var form = document.getElementById('seSubForm');
+  var status = document.getElementById('seSubStatus');
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    status.textContent = 'Subscribing…';
+    setTimeout(function(){
+      status.textContent = 'You\'re in — check your inbox to confirm.';
+      form.reset();
+    }, 600);
+  });
+})();
+</script>
+{{ end }}
