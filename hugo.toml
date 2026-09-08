@@ -76,7 +76,7 @@ defaultContentLanguageInSubdir = false
     title = "Research"
     items = [
       { key = "Research", url = "/research" },
-      { key = "Cycles", url = "/social/cycles" },
+      { key = "Cycles", url = "/cycles" },
       { key = "Tags", url = "/tags" }
     ]
   [[languages.en.params.nav_groups]]
@@ -143,7 +143,7 @@ defaultContentLanguageInSubdir = false
       cards = [
         { img = "/photos/econ/writer.jpg", title = "Evidence", sub = "We test Superphysics in the real world", url = "/evidence" },
         { img = "/graphics/tech/solar.jpg", title = "Proposed Solutions and Technologies", sub = "Enlightenment ideas can lead to totally new technologies", url = "/solutions" },
-        { img = "/photos/countries/ua/war.jpg", title = "Predictions from Social Cycles", sub = "We test our predictions with actual events", url = "/social/cycles" },
+        { img = "/photos/countries/ua/war.jpg", title = "Predictions from Social Cycles", sub = "We test our predictions with actual events", url = "/cycles" },
         { img = "/photos/buy.jpg", title = "Policies from Social Cycles", sub = "A better world needs policies that match Nature", url = "/social/policies" },
       ]
 
@@ -218,7 +218,7 @@ defaultContentLanguageInSubdir = false
       cards = [
         { img = "/photos/econ/writer.jpg", title = "实证", sub = "我们在现实世界中检验超物理学", url = "/evidence" },
         { img = "/graphics/tech/solar.jpg", title = "方案与技术", sub = "启蒙思想能够催生全新的技术", url = "/solutions" },
-        { img = "/photos/countries/ua/war.jpg", title = "社会周期的预测", sub = "我们以真实事件检验预测", url = "/social/cycles" },
+        { img = "/photos/countries/ua/war.jpg", title = "社会周期的预测", sub = "我们以真实事件检验预测", url = "/cycles" },
         { img = "/photos/buy.jpg", title = "社会周期的政策", sub = "更美好的世界需要符合自然的政策", url = "/social/policies" },
       ]
 
@@ -313,21 +313,21 @@ defaultContentLanguageInSubdir = false
   # commentAction = "https://usebasin.com/f/ac926f8e1f10"
   commentAction = "https://pantrypoints.com/api/external"
   
-  sections = [
-    { key = "research", url = "/research" },
-    { key = "superphysics", url = "/superphysics" },
-    { key = "superlogic", url = "/superlogic" },
-    { key = "society", url = "/social/supersociology" },
-    { key = "economics", url = "/social/economics" },
-    { key = "cycles", url = "/social/cycles" },
-    { key = "physics", url = "/material" },    
-    { key = "supermath", url = "/supermath" },
-    { key = "spiritual", url = "/spiritual" },
-    { key = "bio", url = "/bio" },
-    { key = "about", url = "/about" },
-    { key = "news", url = "/news" },
-    { key = "faqs", url = "/faqs" },        
-  ]
+  # sections = [
+  #   { key = "research", url = "/research" },
+  #   { key = "superphysics", url = "/superphysics" },
+  #   { key = "superlogic", url = "/superlogic" },
+  #   { key = "society", url = "/social/supersociology" },
+  #   { key = "economics", url = "/social/economics" },
+  #   { key = "cycles", url = "/social/cycles" },
+  #   { key = "physics", url = "/material" },    
+  #   { key = "supermath", url = "/supermath" },
+  #   { key = "spiritual", url = "/spiritual" },
+  #   { key = "bio", url = "/bio" },
+  #   { key = "about", url = "/about" },
+  #   { key = "news", url = "/news" },
+  #   { key = "faqs", url = "/faqs" },        
+  # ]
 
 
 
