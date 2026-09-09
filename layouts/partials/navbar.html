@@ -1,5 +1,4 @@
 {{- $currentLang := .Site.Language.Lang -}}
-{{- $sections := .Site.Params.sections -}}
 <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-sp-nav backdrop-blur-md border-b border-sp-border transition-all duration-300" style="font-family:var(--font-display)">
   <div class="max-w-[1400px] mx-auto px-4 sm:px-6">
     <div class="flex items-center h-16 gap-4">
@@ -29,25 +28,27 @@
 
       <!-- Desktop Nav -->
       <div class="hidden lg:flex items-center justify-center flex-1 gap-1">
-        {{- range .Site.Params.nav_groups }}
-        <div class="relative group py-4">
-          <button class="flex items-center gap-1 px-3 py-1.5 text-sm font-semibold rounded-lg text-sp-muted hover:text-teal-600 hover:bg-teal-50 dark:hover:bg-teal-950/40 transition-all cursor-default">
-            {{ .title }}
-            <svg class="w-4 h-4 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </button>
-          <div class="absolute top-full left-0 hidden group-hover:block w-48 pt-2 animate-in fade-in slide-in-from-top-2 duration-200">
-            <div class="bg-white dark:bg-sp-card border border-sp-border rounded-xl shadow-xl overflow-hidden p-1">
-              {{- range .items }}
-              {{- $i18nKey := printf "nav_%s" .key }}
-              <a href="{{ .url | relLangURL }}" class="block px-4 py-2 text-sm text-sp-muted hover:text-teal-600 hover:bg-teal-50 dark:hover:bg-teal-950/40 rounded-lg transition-colors">{{ i18n $i18nKey | default .key }}</a>
-              {{- end }}
+        {{- with .Site.Language.Params.nav_groups }}
+          {{- range . }}
+          <div class="relative group py-4">
+            <button class="flex items-center gap-1 px-3 py-1.5 text-sm font-semibold rounded-lg text-sp-muted hover:text-teal-600 hover:bg-teal-50 dark:hover:bg-teal-950/40 transition-all cursor-default">
+              {{ .title }}
+              <svg class="w-4 h-4 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="absolute top-full left-0 hidden group-hover:block w-48 pt-2 animate-in fade-in slide-in-from-top-2 duration-200">
+              <div class="bg-white dark:bg-sp-card border border-sp-border rounded-xl shadow-xl overflow-hidden p-1">
+                {{- range .items }}
+                {{- $i18nKey := printf "nav_%s" .key }}
+                <a href="{{ .url | relLangURL }}" class="block px-4 py-2 text-sm text-sp-muted hover:text-teal-600 hover:bg-teal-50 dark:hover:bg-teal-950/40 rounded-lg transition-colors">{{ i18n $i18nKey | default .key }}</a>
+                {{- end }}
+              </div>
             </div>
           </div>
-        </div>
+          {{- end }}
         {{- end }}
       </div>
 
-      <!-- Right controls -->
+      <!-- Right controls (unchanged) -->
       <div class="flex items-center gap-2 shrink-0">
         <!-- Search -->
         <button id="openSearch" aria-label="Search" class="w-9 h-9 flex items-center justify-center rounded-xl text-sp-muted hover:text-teal-600 hover:bg-sp-bg-alt transition-colors">
@@ -94,9 +95,13 @@
   <!-- Mobile menu -->
   <div id="mobileMenu" class="hidden lg:hidden border-t border-sp-border bg-sp-nav backdrop-blur-md">
     <div class="max-w-[1400px] mx-auto px-4 py-3 grid grid-cols-2 sm:grid-cols-3 gap-1">
-      {{- range $sections }}
-      {{- $i18nKey := printf "nav_%s" .key }}
-      <a href="{{ .url | relLangURL }}" class="px-3 py-2 text-sm font-medium rounded-lg text-sp-muted hover:text-teal-600 hover:bg-teal-50 dark:hover:bg-teal-950/40 transition-colors">{{ i18n $i18nKey | default .key }}</a>
+      {{- with .Site.Language.Params.nav_groups }}
+        {{- range . }}
+          {{- range .items }}
+          {{- $i18nKey := printf "nav_%s" .key }}
+          <a href="{{ .url | relLangURL }}" class="px-3 py-2 text-sm font-medium rounded-lg text-sp-muted hover:text-teal-600 hover:bg-teal-50 dark:hover:bg-teal-950/40 transition-colors">{{ i18n $i18nKey | default .key }}</a>
+          {{- end }}
+        {{- end }}
       {{- end }}
     </div>
   </div>
