@@ -68,6 +68,7 @@ defaultContentLanguageInSubdir = false
     title = "Supereconomics"
     items = [
       { key = "Principles", url = "/principles" },
+      { key = "Articles", url = "/articles" },
       { key = "Fallacies", url = "/fallacies" },
       { key = "Solutions", url = "/solutions" },
       { key = "Policies", url = "/policies" }
@@ -83,7 +84,6 @@ defaultContentLanguageInSubdir = false
     title = "About"
     items = [
       { key = "news", url = "/news" },
-      { key = "articles", url = "/articles" },
       { key = "about", url = "/about" },
       { key = "faqs", url = "/faqs" },
       { key = "help", url = "/help" },
