@@ -9,60 +9,39 @@ weight: 138
 
 
 
-Every country has its own socialism. But things did not differ greatly from
-the English paradigma in those continental countries whose contributions to
-humanity’s fund of cultural values is so strikingly out of proportion to their
-size—the Netherlands and the Scandinavian countries in particular. Take
-Sweden for an instance. Like her art, her science, her politics, her social
-institutions and much besides, her socialism and her socialists owe their
-distinction not to any peculiar features of principle or intention, but to the
-stuff the Swedish nation is made of and to its exceptionally well-balanced
-social structure. That is why it is so absurd for other nations to try to copy
-Swedish examples; the only effective way of doing so would be to import
-the Swedes and to put them in charge.
+Every country has its own socialism. 
 
-The Swedes being the people they are and their social structure being
-what it is, we shall have no difficulty in understanding the two outstanding
-characteristics of their socialism. The socialist party, almost always ably
-and conscientiously led, grew slowly in response to a very normal social
-process, without any attempt to push ahead of normal development and to
-antagonize for the sake of antagonizing. Hence its rise to political power
-produced no convulsions. Responsible office came naturally to its leaders
-who were able to meet the leaders of other parties on terms of equality and
-largely on common ground: to this day, though a communist group has of
-course developed, the differences in current politics reduce to such
-questions as whether a few million kroner more or less should be spent on
-some social purpose accepted by all. 
+<!-- But things did not differ greatly from the English paradigm in those continental countries whose contributions to humanity’s fund of -->
 
-And within the party, the antagonism
-between intellectuals and labor men only shows under the microscope
-precisely because, owing to the level of both, there is no great cultural gulf
-between them and because, the Swedish social organism producing a
-relatively smaller supply of unemployable intellectuals than do other social
-organisms, exasperated and exasperating intellectuals are not as numerous
-as they are elsewhere. This is sometimes described as the “enervating
-control” exerted by trade unions over the socialist movement in general and
-over the party in particular. To observers steeped in the phraseology of
-current radicalism, this may well seem so. But this diagnosis entirely fails
-to do justice to the social and racial environment of which not only the
-labor men but also the intellectuals are the products and which prevents
-both of them from exalting their socialism into a religion. Though room
-might be found in Marx’s teaching for such patterns, the average Marxist
-cannot of course be expected to look with favor upon a socialist party of the Swedish type, or even to admit that it embodies a genuine case of
-socialist endeavor. 
+Sone European countries have large cultural values strikingly out of proportion to their physical size. Examples are the Netherlands and the Scandinavian countries in particular. 
 
-Swedish socialists in turn were very lightly tinged with
-Marxism though they frequently used language that conformed to what was
-then considered socialist etiquette, especially in their international relations
-with other socialist groups.
+Take Sweden for an instance. Her socialism is like her art, science, politics, and social institutions.
 
-On the other end of the scale, in Russia, we find a socialism that was
-almost purely Marxist and hence enjoyed that favor to the full, but is no less
-easy to understand from its environment. Tsarist Russia was an agrarian
-country of largely pre-capitalist complexion. The industrial proletariat, so far
-as it was accessible to the professional socialist, formed but a small part of
-the total population of about 150 millions. 7 The commercial and industrial
-bourgeoisie, correspondingly weak in numbers, was not much more efficient
+They are distinguished by their exceptionally well-balanced social structure. 
+
+This is why it is so absurd for other nations to try to copy Swedish examples.
+- The only effective way of doing so would be to import the Swedes and to put them in charge.
+
+Swedish socialism has 2 outstanding characteristics:
+
+1. Their socialist party was almost always ably and conscientiously led.
+
+This grew slowly in response to a very normal social process, without any attempt to push ahead of normal development and to antagonize for the sake of antagonizing. Hence its rise to political power produced no convulsions. 
+
+Responsible office came naturally to its leaders who were able to meet the leaders of other parties on terms of equality and largely on common ground: to this day, though a communist group has of course developed, the differences in current politics reduce to such questions as whether a few million kroner more or less should be spent on some social purpose accepted by all. 
+
+Within the party, the antagonism between intellectuals and labor men only shows under the microscope precisely because, owing to the level of both, there is no great cultural gulf between them and because, the Swedish social organism producing a relatively smaller supply of unemployable intellectuals than do other social organisms, exasperated and exasperating intellectuals are not as numerous as they are elsewhere. 
+
+This is sometimes described as the “enervating control” exerted by trade unions over the socialist movement in general and over the party in particular. To observers steeped in the phraseology of current radicalism, this may well seem so. But this diagnosis entirely fails to do justice to the social and racial environment of which not only the labor men but also the intellectuals are the products and which prevents both of them from exalting their socialism into a religion. Though room might be found in Marx’s teaching for such patterns, the average Marxist cannot of course be expected to look with favor upon a socialist party of the Swedish type, or even to admit that it embodies a genuine case of socialist endeavor.
+
+2. Swedish socialists in turn were very lightly tinged with Marxism 
+
+They frequently used language that conformed to socialist etiquette, especially in their international relations with other socialist groups.
+
+On the other end of the scale, in Russia, we find a socialism that was almost purely Marxist and hence enjoyed that favor to the full, but is no less easy to understand from its environment. Tsarist Russia was an agrarian country of largely pre-capitalist complexion. 
+
+The industrial proletariat, so far as it was accessible to the professional socialist, formed but a small part of
+the total population of about 150 millions. 7 The commercial and industrial bourgeoisie, correspondingly weak in numbers, was not much more efficient
 than was anyone else, though capitalist evolution fostered by the government
 was rapidly gathering momentum. Inserted into this structure was an
 intelligentsia whose ideas were as foreign to the soil as were the Paris dresses
@@ -256,32 +235,9 @@ view about agitatorial practice and compromises, more than a
 disagreement on secondary points of Marxist doctrine. This meant
 divorce from its innermost meaning. 10
 
-9 As a matter of fact, contact with criminal elements was formed, though not by Lenin
-himself but by (he lieutenants on the spot. This led to the activity of the “ex’s” (shock groups
-engaged in practical “expropriations,” i.e., holdups) both in Russia proper and in Poland. This
-was pure gangsterdom though western intellectuals swallowed an apologetic “theory” of it.
-10 For our purpose it is not necessary to comment further on the details of a well-known
-story. The following remarks will suffice. Lenin did not succeed in subjugating the Russian
-socialist party whose leaders on the contrary drew away from him as time went on the difficulty
-of their situation, arising from their wish to keep up something like a united front without
-jettisoning their principles, is well illustrated by Plekhanov’s vacillations. But Lenin did succeed
-in keeping his group together, in curbing it into obedience and in adjusting its course to the
-problems raised by the revolt of 1905 and its aftermath, including the presence of a Leninist
-element in the Duma. At the same time, he succeeded in keeping contact with, and standing
-in, the Second International (see below) of which he attended three congresses and in whose
-bureau he for a time represented the Russian party. This would hardly have been possible if
-his views and activities had been allowed to impress the representatives of the other nations as
-they impressed the majority of Russian socialists. As it was, that body, and western socialist
-opinion in general, looked upon him simply as the outstanding figure in the left wing of
-orthodoxy and bore with him and his unbending extremism, admiring him in some respects and
-not taking him too seriously in others. Thus in his sphere of politics he played a double role
-that was not without analogy with the double role of the tsarist regime whose international
-attitudes (as exemplified by its sponsoring international arbitration and security) also differed
-considerably from its attitudes at home.
+9 Contact with criminal elements was formed, though not by Lenin himself but by (he lieutenants on the spot. This led to the activity of the “ex’s” (shock groups engaged in practical “expropriations,” i.e., holdups) both in Russia proper and in Poland. This was pure gangsterdom though western intellectuals swallowed an apologetic “theory” of it. 10 For our purpose it is not necessary to comment further on the details of a well-known story. The following remarks will suffice. Lenin did not succeed in subjugating the Russian socialist party whose leaders on the contrary drew away from him as time went on the difficulty of their situation, arising from their wish to keep up something like a united front without jettisoning their principles, is well illustrated by Plekhanov’s vacillations. But Lenin did succeed in keeping his group together, in curbing it into obedience and in adjusting its course to the problems raised by the revolt of 1905 and its aftermath, including the presence of a Leninist element in the Duma. At the same time, he succeeded in keeping contact with, and standing in, the Second International (see below) of which he attended three congresses and in whose bureau he for a time represented the Russian party. This would hardly have been possible if his views and activities had been allowed to impress the representatives of the other nations as they impressed the majority of Russian socialists. As it was, that body, and western socialist opinion in general, looked upon him simply as the outstanding figure in the left wing of orthodoxy and bore with him and his unbending extremism, admiring him in some respects and not taking him too seriously in others. Thus in his sphere of politics he played a double role that was not without analogy with the double role of the tsarist regime whose international attitudes (as exemplified by its sponsoring international arbitration and security) also differed considerably from its attitudes at home.
 
 Neither these achievements nor his contributions to socialist thought—most of them
 distinctly mediocre (as, by the way, were those of Trotsky)—would have secured him a place
 in the front rank of socialists. Greatness came after Russia s breakdown in the World War and
 was as much the result of a unique combination of circumstances that made his weapons
-
-
