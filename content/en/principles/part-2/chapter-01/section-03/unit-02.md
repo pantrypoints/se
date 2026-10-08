@@ -5,7 +5,8 @@ date: 2015-10-30
 weight: 8
 image: "/photos/econ/singer.jpg"
 description: "The Effort Theory of Value is our alternative to both marginal pricing of Capitalism and the labor theory of value of Marxism"
-icon: "Supereconomics"
+# icon: "Supereconomics"
+icon: "Juan"
 writer:
   name: Juan
   url: https://www.linkedin.com/in/jundalisay/
@@ -15,11 +16,7 @@ writer:
 
 The previous unit explained the **Effort Theory of Value** which is based on one's dharma or svadharhma. 
 
-A person who loves playing guitars will make higher quality guitar music than one who hates playing guitars.
-
-The guitar-lover's effort is less than the guitar-hater. 
-
-Make 2 equations, 1 for guitar lover and for guitar hater. Guitar lovers E is less, creating more Force
+<!-- Make 2 equations, 1 for guitar lover and for guitar hater. Guitar lovers E is less, creating more Force -->
 
 ```
 F = (V↑ - V↓) / E
@@ -33,4 +30,27 @@ Economic activity or flow is highest when there is a difference between value-pe
 
 Economic flow is lowest when there is no difference between value-perceptions, and Effort is high. Effort is naturally lowest if it matches the dharma or purpose of the entity making the effort.
 
+## Example
+
+A person who loves playing guitars will make higher quality guitar music than one who hates playing guitars.
+
+The guitar-lover's effort is less than the guitar-hater. 
+
+Assume society loves guitar music, so V↑ = 10 and V↓ = 2.
+- The Guitar Lover's Effort is 1
+- The Guitar Hater's Effort is 10
+
+
+```
+F_lover = (8) / 1 = 8
+F_hater = 8 / 10 = 0.8
+```
+
+
+This means the force of capital of:
+- Guitar Lover in playing guitar is 8 -- He is needs to play a lot because of the high demand and his low effort in playing guitar. 
+- Guitar Hater in playing guitar is 0.8 -- He is so stressed when he plays because his force is very low. 
+
+
+The high demand for guitar music prevents Guitar Lover from being overcapitalized. 
 

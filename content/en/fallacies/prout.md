@@ -79,6 +79,9 @@ Both Modern China and PROUT started in the 1950s.
 - Marxist China was established in 1949
 - PROUT was established in 1959
 
+
+### The Problem with Cults
+
 The big difference is that China did not use the **dogmatic cult format** whereas PROUT kept its cult dogma. This prevented reform in PROUT. 
 
 The Communist Party reformed Mao, with Deng declaring Mao's Cultural Revolution as a catastrophe in 1981. This allowed a near total overhaul that stayed within the genearl socialist agenda.
@@ -86,9 +89,26 @@ The Communist Party reformed Mao, with Deng declaring Mao's Cultural Revolution 
 The cult format of PROUT prevents it from admitting that PROUT from 1959 to modern times (2014) has been a catastrophe, with Venezuela as a shining example, that needs a near total overhaul. 
 
 
+
+We have the same goal. But the problem with your Prout is that done lazily by PR Sarkar as Nutshells. This is because PR Sarkar is a differnent entity from Anandamurti. PR Sarkar is just some Indian guy named Ram Chandra Upadhyaya. This creates a disconnect between low vibration Sarkar and high vibration Anandamurti which leads to splits. This is why very few gurus use that cult system. The laziness of Sarkar/Upadhyaya led to gaps in knowledge in Prout that was filled with Marxism by dogmatic Proutists. 
+
+
+
 ## How Supereconomics Fixes PROUT
 
-Supereconomics uses the Four Laws of Value derived from Adam Smith:
+The main problem with Prout was it was done lazily by PR Sarkar who is a different entity from Shri Shri Anandamurti where the information comes from. 
+
+This is similar to:
+- Prophet Mohammad being different from Allah
+- Jesus Christ being different from God
+- Jane Roberts being different Seth
+- Darryl Anka being different from Bashar
+
+The lazy method of PR Sarkar creates a lot of holes in Prout which is then filled by dogmatic Marxist-Proutists. This adds religious fundamentalism to Marxist ideas, similar to that seen in Venezuela. 
+
+This difference between low vibration PR Sarkar and high vibration Anandamurti naturally led to the extreme disconnect in their own Ananda Marga. This is why very few gurus use the cult format. 
+
+Supereconomics fixes Prout by using the Four Laws of Value derived from Adam Smith:
 
 1. The 1st Law establishes a moneyless system and purchasing power and  minimum requirements
 
@@ -105,4 +125,6 @@ This replaces the 1st and 4th principles of PROUT.
 4. The 3rd Law establishes multilateral clearing (from economist EF Schumacher) whether using the money or moneyless systems
 
 This replaces the 2nd principle of PROUT.
+
+Moreover, the 4 Laws lead to the [quadro-division](https://proutglobe.org/2011/05/quadri-dimensional-economy/) of PROUT.
 
