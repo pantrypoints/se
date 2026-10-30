@@ -64,7 +64,7 @@ The trouble became worse when Bill Clinton in 1995 opened up Haiti to foreign ri
 
 {{< youtube hXeGCEphoh4 >}}
 
-The height of the crisis began in 2009 when Bill Clinton became UN envoy to Haiti.
+The crisis began in 2009 when Bill Clinton became UN envoy to Haiti.
 
 This white oppression triggered the 2010 earthquake which had its epicenter very near in Port-au-Prince.
 
@@ -94,6 +94,4 @@ China increases investments to the Congo area: Gabon, DRC, and RC of E1b1a genet
 This increases the economy of the Congo area so that they can send aid and then troops to Haiti, supported by Chinese advisors and industry. 
 
 Asian discipline is enforced in Haiti to get rid of gangs and restore the rule of law that is no longer subservient to the whites.
-
-
 
