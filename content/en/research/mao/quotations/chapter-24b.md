@@ -8,8 +8,7 @@ author: "Mao Zedong"
 icon: "Mao Zedong"
 ---
 
-{{< n n="This is proof that Communism and Socialism are against Liberalism. It is only in the US where Liberalism got associated with Socialism" >}}
-
+{{< n n="This is proof that Communism and Socialism are against Liberalism. It is only in the US where Liberalism got associated with Socialism. We trace the US mistake to Woodrow Wilson, a liberal, implementing conservative policies such as taxation and entry into World War. To combat this conservatism from liberalism, the conservatives adopted liberalism as liberatarianism. This is why Elon Musk and Donald Trump are rivals because Musk is really a liberal (business oligarch class earning by profit from **dynamic** circulation) while Trump is a conservative (landlord earning by rent from **static** territory)" >}}
 
 
 ## Types of Liberalism
